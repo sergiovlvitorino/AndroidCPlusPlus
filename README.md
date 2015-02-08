@@ -51,7 +51,6 @@ Ferramentas:
     NDK r9d
   </li>
 </ul>
-<br>
 Passos:
 <br>
 <ul>
