@@ -9,7 +9,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(com.example.androidcplusplus.R.layout.activity_main);	
+		setContentView(R.layout.activity_main);	
 		runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
