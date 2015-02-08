@@ -1,8 +1,6 @@
 # AndroidCPlusPlus
-This code has the intention to show how to use C++ into a Android application.
-<br>
-Tools:
-<br>
+<p>This code has the intention to show how to use C++ into a Android application.</p>
+<p>Tools:</p>
 <ul>
   <li>
     Eclipse ADT
@@ -14,7 +12,7 @@ Tools:
     NDK r9d
   </li>
 </ul>
-Steps:<br>
+<p>Steps:</p>
 <ul>
   <li>
     Download the source;
@@ -36,9 +34,9 @@ Steps:<br>
 </ul>
 <br>
 <br>
-Este exemplo foi construído com a intenção de mostrar como usar C++ dentro de um aplicativo Android.  
-<br>
-Ferramentas:
+<hr>
+<p>Este exemplo foi construído com a intenção de mostrar como usar C++ dentro de um aplicativo Android.</p>  
+<p>Ferramentas:</p>
 <br>
 <ul>
   <li>
@@ -51,8 +49,7 @@ Ferramentas:
     NDK r9d
   </li>
 </ul>
-Passos:
-<br>
+<p>Passos:</p>
 <ul>
   <li>
     Baixe o codígo-fonte;
