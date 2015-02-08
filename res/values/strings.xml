@@ -1,5 +1,8 @@
 <resources>
 
     <string name="app_name">AndroidCPlusPlus</string>
+    <string name="sum">Sum</string>
+    <string name="value1">Value1</string>
+    <string name="value2">Value2</string>
 
 </resources>

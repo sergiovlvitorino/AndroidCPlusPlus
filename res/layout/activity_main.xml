@@ -4,5 +4,47 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edResult"
+        android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value1"
+        />
+    
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edValue1"
+        android:inputType="number|numberDecimal"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value2"/>
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edValue2"
+        android:inputType="number|numberDecimal"
+        />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btSum"
+        android:text="@string/sum"
+         />
 
 </LinearLayout>
