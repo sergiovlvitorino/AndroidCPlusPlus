@@ -7,6 +7,9 @@ using namespace std;
 
 extern "C" {
     JNIEXPORT jfloat JNICALL Java_com_example_androidcplusplus_Calculator_sum(JNIEnv* env, jobject obj, jfloat a, jfloat b);
+    JNIEXPORT jfloat JNICALL Java_com_example_androidcplusplus_Calculator_sub(JNIEnv* env, jobject obj, jfloat a, jfloat b);
+    JNIEXPORT jfloat JNICALL Java_com_example_androidcplusplus_Calculator_mult(JNIEnv* env, jobject obj, jfloat a, jfloat b);
+    JNIEXPORT jfloat JNICALL Java_com_example_androidcplusplus_Calculator_div(JNIEnv* env, jobject obj, jfloat a, jfloat b);
 };
 
 jint JNI_OnLoad(JavaVM* vm, void* reserved)
@@ -21,4 +24,22 @@ JNIEXPORT jfloat JNICALL Java_com_example_androidcplusplus_Calculator_sum(JNIEnv
 {
     Calculator* calculator = new Calculator();
     return calculator->sum(a, b);
+}
+
+JNIEXPORT jfloat JNICALL Java_com_example_androidcplusplus_Calculator_sub(JNIEnv* env, jobject obj, jfloat a, jfloat b)
+{
+    Calculator* calculator = new Calculator();
+    return calculator->sub(a, b);
+}
+
+JNIEXPORT jfloat JNICALL Java_com_example_androidcplusplus_Calculator_mult(JNIEnv* env, jobject obj, jfloat a, jfloat b)
+{
+    Calculator* calculator = new Calculator();
+    return calculator->mult(a, b);
+}
+
+JNIEXPORT jfloat JNICALL Java_com_example_androidcplusplus_Calculator_div(JNIEnv* env, jobject obj, jfloat a, jfloat b)
+{
+    Calculator* calculator = new Calculator();
+    return calculator->div(a, b);
 }
