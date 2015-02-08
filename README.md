@@ -33,11 +33,10 @@
   </li>
 </ul>
 <br>
-<br>
 <hr>
+<br>
 <p>Este exemplo foi construído com a intenção de mostrar como usar C++ dentro de um aplicativo Android.</p>  
 <p>Ferramentas:</p>
-<br>
 <ul>
   <li>
     Eclipse ADT
