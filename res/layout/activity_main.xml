@@ -39,34 +39,41 @@
         android:id="@+id/edValue2"
         android:inputType="number|numberDecimal"
         />
-    
-    <Button
+    <TableLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btSum"
-        android:text="@string/sum"
-         />
+        android:stretchColumns="*">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+	        <Button
+		        android:gravity="center"
+		        android:padding="10dp"
+		        android:id="@+id/btSum"
+		        android:text="@string/sum"
+		        />
+	        <Button
+		        android:gravity="center"
+		        android:padding="10dp"
+		        android:id="@+id/btSub"
+		        android:text="@string/sub"
+		        />
+	        <Button
+        		android:gravity="center"
+		        android:padding="10dp"
+        		android:id="@+id/btMult"
+        		android:text="@string/mult"
+         		/>
+		    <Button
+        		android:gravity="center"
+		        android:padding="10dp"
+		        android:id="@+id/btDiv"
+		        android:text="@string/div"
+		        />
+		</TableRow>
+    </TableLayout>
     
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btSub"
-        android:text="@string/sub"
-         />
-    
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btMult"
-        android:text="@string/mult"
-         />
-    
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btDiv"
-        android:text="@string/div"
-         />
     
     <Button
         android:layout_width="match_parent"

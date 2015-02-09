@@ -3,10 +3,10 @@
     <string name="app_name">AndroidCPlusPlus</string>
     <string name="value1">Value1</string>
     <string name="value2">Value2</string>
-    <string name="sum">Sum</string>
-    <string name="sub">Subtraction</string>
-    <string name="mult">Multiplication</string>
-    <string name="div">Division</string>
+    <string name="sum">+</string>
+    <string name="sub">-</string>
+    <string name="mult">*</string>
+    <string name="div">/</string>
     <string name="clear">Clear</string>
     <string name="division_per_zero">Division per zero.</string>
     
